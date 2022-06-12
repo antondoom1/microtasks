@@ -5,9 +5,6 @@ import {NewComponent2} from './NewComponent2'
 type FilterType = 'All' | 'Rubles' | 'Dollars'
 
 export const FilterMoney = () => {
-  // const clickButton = (subscriber: string) => {
-  //     console.log(`${subscriber} clicked`)
-  // }
 
   const [money, setMoney] = useState([
     {banknote: 'Dollars', value: 100, number: ' a1234567890'},
